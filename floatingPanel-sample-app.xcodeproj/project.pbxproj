@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		32027627264B76E5005DC905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32027625264B76E5005DC905 /* Main.storyboard */; };
 		32027629264B76E8005DC905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32027628264B76E8005DC905 /* Assets.xcassets */; };
 		3202762C264B76E8005DC905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3202762A264B76E8005DC905 /* LaunchScreen.storyboard */; };
+		32027639264B79B7005DC905 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32027638264B79B7005DC905 /* TableViewController.swift */; };
 		BC639044B5D557CE3AF2B409 /* Pods_floatingPanel_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC228AC3E25E786E0882EDC /* Pods_floatingPanel_sample_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		32027628264B76E8005DC905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3202762B264B76E8005DC905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3202762D264B76E8005DC905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32027638264B79B7005DC905 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7EC228AC3E25E786E0882EDC /* Pods_floatingPanel_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_floatingPanel_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81679D1F83B9464776124EC /* Pods-floatingPanel-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-floatingPanel-sample-app.release.xcconfig"; path = "Target Support Files/Pods-floatingPanel-sample-app/Pods-floatingPanel-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		FE82F7ACDF2113C97C904880 /* Pods-floatingPanel-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-floatingPanel-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-floatingPanel-sample-app/Pods-floatingPanel-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				32027628264B76E8005DC905 /* Assets.xcassets */,
 				3202762A264B76E8005DC905 /* LaunchScreen.storyboard */,
 				3202762D264B76E8005DC905 /* Info.plist */,
+				32027638264B79B7005DC905 /* TableViewController.swift */,
 			);
 			path = "floatingPanel-sample-app";
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				FE82F7ACDF2113C97C904880 /* Pods-floatingPanel-sample-app.debug.xcconfig */,
 				B81679D1F83B9464776124EC /* Pods-floatingPanel-sample-app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +211,7 @@
 				32027624264B76E4005DC905 /* ViewController.swift in Sources */,
 				32027620264B76E4005DC905 /* AppDelegate.swift in Sources */,
 				32027622264B76E4005DC905 /* SceneDelegate.swift in Sources */,
+				32027639264B79B7005DC905 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
